@@ -73,7 +73,7 @@ public class ProductController {
 	}
 
 	private String getStaticFolderPath() {
-		Path directorioRescuros = Paths.get("src//main//resources//static");
+		Path directorioRescuros = Paths.get("C://xampp/htdocs");
 		String rootPath = directorioRescuros.toFile().getAbsolutePath();
 		return rootPath;
 	}
